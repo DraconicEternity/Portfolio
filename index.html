@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page.title">Djordy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/Logo_scrolled.png">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/0bc69a3b80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button id="scroll-up-btn" type="button" aria-label="Scroll naar boven" title="Scroll naar boven">
+        <i class="fa-solid fa-angle-up" aria-hidden="true"></i>
+    </button>
+
+    <!--Menubar up top-->
+    <nav class="menu-bar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">
+                    <img id="menu-logo" src="Images/Logo_Main.png" alt="DR">
+                </a>
+            </div>
+            <div class="language-dropdown-container">
+                <button class="language-dropdown" type="button" aria-expanded="false" aria-label="Selecteer taal">
+                    <span id="language-selected">NL</span>
+                    <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p class="language-title" data-i18n="language.title">
+                        Change language
+                    </p>
+                    <label>
+                        <input type="radio" name="language" value="NL" checked>
+                        Nederlands
+                    </label>
+                    <label>
+                        <input type="radio" name="language" value="EN">
+                        English
+                    </label>
+                </div>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home" data-i18n="nav.home">Thuis</a></li>
+                <li><a href="#about" data-i18n="nav.about">Over</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Projecten</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <button class="menu-button" type="button" aria-label="Menu openen" aria-expanded="false">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!--Home section start-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-layout">
+                <div class="home-content">
+                    <div class="text-01" data-i18n="hero.greeting">Hallo, mijn naam is</div>
+                    <div class="text-02">Djordy Roke</div>
+                    <div class="text-03"><span data-i18n="hero.rolePrefix">ik ben een</span>
+                        <span data-i18n="developer">Developer</span>
+                    </div>
+                    <a href="#about" data-i18n="hero.learnMore">Meer weten</a>
+                </div>
+
+                <a class="featured-project"
+                    href="https://github.com/DraconicEternity"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="featured-project-header">
+                        <span class="featured-label" data-i18n="featured.label">
+                            Uitgelicht Project
+                        </span>
+
+                        <span class="featured-status" data-i18n="featured.status">
+                            In ontwikkeling
+                        </span>
+                    </div>
+
+                    <img class="featured-image" src="Images/FeaturedProject.png" alt="Uitgelicht project afbeelding">
+
+                    <div class="featured-project-info">
+                        <h2 data-i18n="featured.title">
+                            MetamorPhection
+                        </h2>
+
+                        <p data-i18n="featured.description">
+                            A choose your own adventure visual novel game that i have been working  on for the past year. Link Brings you to my general GitHub page.
+                        </p>
+
+                        <div class="featured-tools">
+                            <span class="featured-tools-label" data-i18n="featured.toolsLabel">Gebruikte tools</span>
+                            <span>GoDot</span>
+                            <span>Procreate</span>
+                            <span>ToonSquid</span>
+                        </div>
+                        <span class="featured-date" data-i18n="featured.date">Gestart: 2025 (ongeveer)</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--About section start-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title" data-i18n="about.title">Over mij</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="Images/profile-01.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">
+                        <span class="intro" data-i18n="about.intro">Ik ben Djordy en ik ben een</span> <span data-i18n="developer">Developer</span>
+                    </div>
+                    <p data-i18n="about.description">Hallo ik ben Djordy Roke een beginnende Software developer uit Nederland. Deze pagina verteld wie ik ben en wat ik doe. Mijn hobbies Zijn Gamen, Boogschieten, Fietsen, Tekenen en alles wat te maken heeft met tech ik heb best wat ervaring met bijde hardware en software. Meer weten over studdies die ik heb gedaan of een diepere inzicht tot mijn skills? Bekijk of download mijn CV door te klikken op de knop hier onder.</p>
+                    <a href="https://github.com/DraconicEternity/DraconicEternity/blob/main/CV%20-%20Djordy%202026.pdf" target="_blank" data-i18n="about.downloadCv">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services section start-->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h1 class="title" data-i18n="projects.title">Projecten</h1>
+            <div class="projects-content">
+
+                <a href="https://www.youtube.com/watch?v=lwwrtYHZ3Bw" class="project-card" target="_blank">
+                    <img src="Images/BlenderAvi.png" alt="">
+                    <span class="project-status" data-i18n="projects.blender.status">Altijd in ontwikkeling</span>
+                    <h2 class="project-title" data-i18n="projects.blender.title">3D animatie en sculpting</h2>
+                    <p class="project-details">
+                        <span data-i18n="projects.blender.description">Ik ben aan het leren hoe ik een 3D-personage maak en manipuleer in Blender. Ik ben in 2020 begonnen met Blender, maar neem het de laatste tijd serieuzer.</span>
+                    </p>
+                    <div class="project-tools">
+                        <span class="project-tools-label" data-i18n="projects.toolsLabel">Tools</span>
+                        <span class="project-tool">Blender</span>
+                        <span class="project-tool">Substance Painter</span>
+                    </div>
+                    <span class="project-date" data-i18n="projects.blender.date">14 / 12 / 2020 tot heden</span>
+                </a>
+
+                <a href="#" class="project-card" target="">
+                    <img src="Images/DrawExample.PNG" alt="">
+                    <span class="project-status" data-i18n="projects.art.status">Altijd in ontwikkeling</span>
+                    <h2 class="project-title" data-i18n="projects.art.title">2D animatie en digitale kunst</h2>
+                    <p class="project-details">
+                        <span data-i18n="projects.art.description">Ik leer animeren met 2D-animatiesoftware en verbeter mijn tekenstijl en anatomie.</span>
+                    </p>
+                    <div class="project-tools">
+                        <span class="project-tools-label" data-i18n="projects.toolsLabel">Tools</span>
+                        <span class="project-tool">Procreate</span>
+                        <span class="project-tool">ToonSquid</span>
+                    </div>
+                    <span class="project-date" data-i18n="projects.art.date">- / 7 / 2018 tot heden</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Skills section start-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h1 class="title" data-i18n="skills.title">Vaardigheden</h1>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text" data-i18n="skills.heading">Mijn creatieve vaardigheden en kennis.</div>
+                    <p data-i18n="skills.description">Hier krijg je inzicht in de programmeertalen waarin ik kan coderen en hoeveel ik ervan weet ook heb ik wat van mijn veel gebruikte software genoteerd. Wil je meer lezen over de tools die ik gebruik of de projecten die ik aan het maken ben? Klik op de knop hieronder.</p>
+                    <a href="https://github.com/DraconicEternity/DraconicEternity" target="_blank" data-i18n="skills.readMore">Lees meer</a>
+                </div>
+
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line py"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Blender</span>
+                            <span>45%</span>
+                        </div>
+                        <div class="line blnd"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Procreate</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line prc"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Substance 3d painter</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line sub3d"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Toonsquid</span>
+                            <span>45%</span>
+                        </div>
+                        <div class="line tsq"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title" data-i18n="contact.title">Contact</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text" data-i18n="contact.heading">Laten we praten</div>
+                    <p data-i18n="contact.description">Als je contact met me opneemt, kunnen we kijken of we een goede match zijn. Vertel in je bericht wat je van mij verwacht, zodat ik je zo goed mogelijk kan antwoorden.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head" data-i18n="contact.name">Naam</div>
+                                <div class="sub-title">Djordy Roke</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head" data-i18n="contact.address">Adres</div>
+                                <div class="sub-title" data-i18n="contact.location">Heemskerk, Nederland</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head" data-i18n="contact.email">E-mail</div>
+                                <div class="sub-title">djblox.john@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text" data-i18n="contact.formHeading">Stuur me een bericht</div>
+                    <form action="https://formsubmit.co/djblox.john@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="Nieuw bericht via je portfolio">
+                        <input type="text" name="_honey" style="display:none">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name="name" placeholder="Naam" data-i18n-placeholder="form.name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="email" placeholder="E-mail" data-i18n-placeholder="form.email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Onderwerp" data-i18n-placeholder="form.subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea name="message" cols="30" rows="10" placeholder="Bericht.." data-i18n-placeholder="form.message" required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit" data-i18n="form.submit">Verstuur bericht</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer start-->
+    <footer>
+        <span><span data-i18n="footer.createdBy">Gemaakt door</span> <a href="https://github.com/DraconicEternity">DraconicEternity</a> | <span class="far fa-copyright" aria-hidden="true"></span> <span data-i18n="footer.rights">2026 Alle rechten voorbehouden.</span></span>
+    </footer>
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
