@@ -8,14 +8,14 @@
 /* Load Eras ITC locally */
 @font-face {
     font-family: "Eras ITC Web";
-    src: url("./Fonts/ErasITC.woff2") format("woff2");
+    src: url("./Fonts/ITCErasStd-Medium.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: block;
 }
 @font-face {
     font-family: "Eras ITC Web";
-    src: url("./Fonts/ErasBoldITC.woff2") format("woff2");
+    src: url("./Fonts/ITCErasStd-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: block;
