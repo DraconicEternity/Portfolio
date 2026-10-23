@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'ITC Eras Std';
+    src: url('ITCErasStd-Book.eot');
+    src: local('ITC Eras Std Book'), local('ITCErasStd-Book'),
+        url('ITCErasStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('ITCErasStd-Book.woff2') format('woff2'),
+        url('ITCErasStd-Book.woff') format('woff'),
+        url('ITCErasStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Eras Std';
+    src: url('ITCErasStd-Medium.eot');
+    src: local('ITC Eras Std Medium'), local('ITCErasStd-Medium'),
+        url('ITCErasStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ITCErasStd-Medium.woff2') format('woff2'),
+        url('ITCErasStd-Medium.woff') format('woff'),
+        url('ITCErasStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Eras Std';
+    src: url('ITCErasStd-Bold.eot');
+    src: local('ITC Eras Std Bold'), local('ITCErasStd-Bold'),
+        url('ITCErasStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ITCErasStd-Bold.woff2') format('woff2'),
+        url('ITCErasStd-Bold.woff') format('woff'),
+        url('ITCErasStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Eras Std';
+    src: url('ITCErasStd-Light.eot');
+    src: local('ITC Eras Std Light'), local('ITCErasStd-Light'),
+        url('ITCErasStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('ITCErasStd-Light.woff2') format('woff2'),
+        url('ITCErasStd-Light.woff') format('woff'),
+        url('ITCErasStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Eras Std';
+    src: url('ITCErasStd-Ultra.eot');
+    src: local('ITC Eras Std Ultra'), local('ITCErasStd-Ultra'),
+        url('ITCErasStd-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('ITCErasStd-Ultra.woff2') format('woff2'),
+        url('ITCErasStd-Ultra.woff') format('woff'),
+        url('ITCErasStd-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Eras Std';
+    src: url('ITCErasStd-Demi.eot');
+    src: local('ITC Eras Std Demi'), local('ITCErasStd-Demi'),
+        url('ITCErasStd-Demi.eot?#iefix') format('embedded-opentype'),
+        url('ITCErasStd-Demi.woff2') format('woff2'),
+        url('ITCErasStd-Demi.woff') format('woff'),
+        url('ITCErasStd-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
