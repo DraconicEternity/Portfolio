@@ -240,10 +240,10 @@ $(document).ready(function(){
         // Your existing sticky navbar
         if(this.scrollY > 20){
             $('.menu-bar').addClass("sticky");
-            $('#menu-logo').attr("src", "./images/Logo_Scrolled.png");
+            $('#menu-logo').attr("src", "./Images/Logo_Scrolled.png");
         }else{
             $('.menu-bar').removeClass("sticky");
-            $('#menu-logo').attr("src", "./images/Logo_Main.png");
+            $('#menu-logo').attr("src", "./Images/Logo_Main.png");
         }
 
         // Your existing Home expansion
