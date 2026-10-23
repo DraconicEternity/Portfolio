@@ -12,7 +12,23 @@ body{
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Eras Bold ITC", "Eras ITC", sans-serif;
+    font-family:"Eras ITC", sans-serif;
+}
+/* Load Eras ITC locally */
+@font-face {
+    font-family: "Eras ITC";
+    src: url("./Fonts/ErasITC.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Eras ITC";
+    src: url("./Fonts/ErasBoldITC.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 /* All similar content styling */
