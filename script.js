@@ -23,9 +23,9 @@ $(document).ready(function(){
             'featured.label': 'Uitgelicht project',
             'featured.status': 'In ontwikkeling',
             'featured.toolsLabel': 'Gebruikte tools',
-            'featured.date': 'Gestart: 2025 (ongeveer)',
-            'featured.title': 'MetamorPhection',
-            'featured.description': 'A choose your own adventure visual novel game that i have been working  on for the past year. Link Brings you to my general GitHub page.',
+            'featured.date': 'Gestart: 28/10/2026',
+            'featured.title': 'Webshop Anna,s cadeau artikelen',
+            'featured.description': 'Een webshop dat knutsels verkoopt van Annelis. kliken op de knop brenkt je naar mijn GitHub.',
 
             // about me
             'about.title': 'Over mij',
@@ -87,9 +87,9 @@ $(document).ready(function(){
             'featured.label': 'Featured project',
             'featured.status': 'In development',
             'featured.toolsLabel': 'Tools used',
-            'featured.date': 'Started: 2025 (approx.)',
-            'featured.title': 'MetamorPhection',
-            'featured.description': 'A choose your own adventure visual novel game that i have been working  on for the past year. Link Brings you to my general GitHub page.',
+            'featured.date': 'Started: 28/10/2026',
+            'featured.title': 'Webshop Anna,s cadeau atikelen',
+            'featured.description': 'A webshop for selling creations made by annelies. clicking on the button brings you to my GitHub',
 
             // about me
             'about.title': 'About me',
